@@ -37,10 +37,10 @@ public class PrincipalConBusqueda {
             if (busqueda.equalsIgnoreCase("Salir")) {
                 break;
             }
-
+            // Aca ajustar la api key
             String direccion = "http://www.omdbapi.com/?t="
                     + busqueda.replace(" ", "+")
-                    + "&apikey=91641455";
+                    + "&apikey=COLOCAR_API_KEY";
             miTitulo = null;
             try {
                 // HTTP Request
